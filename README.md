@@ -1,7 +1,5 @@
-# requirements.txt
-
 # Python version
-python>=3.6
+python>=3.12
 
 # No external libraries required (uses built-in modules only).
 
