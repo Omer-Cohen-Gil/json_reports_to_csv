@@ -70,7 +70,7 @@ for h in all_headers:
 run_for_roots(get_values)
 
 # print everything
-with open(f"{path}", "w") as write_file:
+with open(f"{path}.csv", "w") as write_file:
     for header in all_headers:
         write_file.write(f"{header},")
     write_file.write('\n')
